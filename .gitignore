@@ -1,0 +1,37 @@
+# 編譯產出與目的檔
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# 執行檔 (無副檔名或常見副檔名)
+*.exe
+*.out
+*.app
+a.out
+
+# 建置目錄 (CMake 等)
+build/
+bin/
+out/
+cmake-build-*/
+.cache/
+
+# 整合開發環境與編輯器設定
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 除錯與崩潰日誌
+*.dSYM/
+*.su
+*.idb
+*.pdb
+gmon.out
+core
