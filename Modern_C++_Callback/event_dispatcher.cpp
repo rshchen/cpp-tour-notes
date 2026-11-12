@@ -119,15 +119,15 @@ int main()
 
     EventDispatcher dispatcher2;
     std::vector<char> call_order;
-    auto a = [&call_order](int val)
+    auto a = [&call_order](int)
     {
         call_order.push_back('a');
     };
-    auto b = [&call_order](int val)
+    auto b = [&call_order](int)
     {
         call_order.push_back('b');
     };
-    auto c = [&call_order](int val)
+    auto c = [&call_order](int)
     {
         call_order.push_back('c');
     };
